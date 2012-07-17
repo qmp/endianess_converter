@@ -1,4 +1,6 @@
 //32 bits endianess converter using gcc builtin
+//note that this tool suppose your binary only contains 32 bits data beginning
+//at 0
 #include <stdlib.h>
 #include <stdio.h>
 
